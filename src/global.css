@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+nav{
+    height: 12vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnLink{
+    text-decoration: none;
+}
+
+.listdisplay{
+    height: 82vh;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 2px solid goldenrod;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+h2{
+    text-align: center;
+    color: darkgreen;
+}
+
+.nonews{
+    text-align: center;
+    color: darkolivegreen;
+}
+
+.author{
+    color: purple;
+}
+
+.title{
+    color: chocolate;
+}
+
+.desc{
+    color: crimson;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid goldenrod;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.imgdiv{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    height: 300px;
+    width: 70%;
+    border: 2px solid black;
+    padding-top: 20px;
+}
